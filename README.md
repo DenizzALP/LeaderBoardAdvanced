@@ -24,7 +24,6 @@ A simple and interactive leaderboard application built using HTML, CSS, and Java
 
     ```bash
     git clone https://github.com/DenizzALP/LeaderBoardAdvanced.git
-    cd Guncel-Hava-Durumu-Uygulamasi
     ```
 
 2. Open `index.html` in your browser.
