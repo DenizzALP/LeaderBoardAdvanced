@@ -1,0 +1,188 @@
+/* Reset */
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+border:3px dotted #E5C9C5 ;
+}
+/*-----*/
+
+
+
+/*main-container*/
+    .main-container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+        
+        height: 100VH;
+    }
+    .title{
+        font-size: 3.5rem;
+        letter-spacing: 10px;
+        margin: 50px;
+    }
+
+    /* inputs-container */
+
+        #name-input{
+            font-size: 1.5rem;
+            border: 2px solid #E5C9C5;
+            padding:10px 5px;
+            
+        }
+        #last-name-input{
+            font-size: 1.5rem;
+            border: 2px solid #E5C9C5;
+            padding:10px 5px;
+        }
+        #Country-input{
+            font-size: 1.5rem;
+            border: 2px solid #E5C9C5;
+            padding:10px 5px;
+        }
+        #player-score-input{
+            font-size: 1.5rem;
+            border: 2px solid #E5C9C5;
+            padding:10px 5px;
+        }
+        #add-btn{
+            font-size: 1.5rem;
+            border: 2px solid #E5C9C5;
+            background-color: #E5C9C5;
+            color: #fff;
+            padding:10px 5px;
+        }
+        #name-input:focus,#last-name-input:focus,#Country-input:focus,#player-score-input:focus{
+            border: 2px solid #EB8D7D;
+            outline: none; 
+        }
+        #add-btn:active {
+            background-color: #EB8D7D;
+            transform: scale(0.95);
+        }
+    /*-----*/
+    
+    /* attention-container */
+        .attention-container{
+            margin: 20px;
+
+            display: none;
+            /* normali display:block */
+        }
+        #attention{
+            color: red;
+            font-weight: bold;
+        }
+    /*-----*/
+
+    /* output-container */
+        .output-container{
+            margin-top: 50px;
+            width: 90.5%;
+        }
+        .output-row{
+            background-color: #E5C9C5;
+            margin: 10px 0px;
+            display: flex;
+            flex-wrap: nowrap ;
+            width: 100%;
+        }
+        .output-row-name-date-container{
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+        .output-row-name-container{
+            margin: 15px;
+        }
+        .output-row-date-container{
+            margin: 15px;
+            margin-top:0 ;
+        }
+        .output-row-name-container p{
+            font-size: 1.3rem;
+        }
+        .output-row-date-container p{
+            color: #898592;
+        }
+
+
+        .output-row-others-container{
+            width: 65%;
+            display: flex;
+            align-items: center;
+        }
+
+        .output-row-others-country-container{
+            width: 30%;
+        }
+        .output-row-others-country-container p{
+            
+            font-size: 1.3rem;
+        }
+
+        .output-row-others-grade-container{
+            width: 30%;
+        }
+        .output-row-others-grade-container p{
+            font-size: 1.3rem;
+        }
+
+        .output-row-others-buttons-container{
+            width: 35%;
+            margin-left: 80px;
+        }
+
+        #delete-btn{
+            border-radius: 100%;
+            padding: 20px;
+            border: 0px;
+        }
+        #delete-btn i {
+            font-size: 16px; 
+            color: red;
+        }
+        #delete-btn:hover{
+            background-color: #DEF4B4;
+        }
+
+        #plus-5-btn{
+            border-radius: 100%;
+            padding: 20px;
+            border: 0px;
+            font-size: 16px;
+        }
+        #plus-5-btn:hover{
+            background-color: #DEF4B4;
+        }
+
+
+        #minus-5-btn{
+            border-radius: 100%;
+            padding: 20px;
+            border: 0px;
+            font-size: 16px;
+        }
+        #minus-5-btn:hover{
+            background-color: #DEF4B4;
+        }
+    /*-----*/
+
+
+
+/*-----*/
+
+
